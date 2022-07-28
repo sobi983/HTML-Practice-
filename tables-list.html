@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables list</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Lists</h1>
+            <ul type = "square" > 
+                <!-- Not recommeded to use the type in the ul bceause the styling part will be figured by the css-->
+                <li>Sobi</li>
+                <li>Sobi</li>
+                <li>Sobi</li>
+            </ul>
+
+            <ol  >
+                <li>Sobi</li>
+                <li>Sobi</li>
+                <li>Sobi</li>
+            </ol>
+        </section>
+
+       <!-- tr = table row &  th = table head  && td = table data && thead = just on the head of the table(it is used if we want to add color to the hader and we have alot of headers then we will wrap them into thead and change the color of the thead  && tbody =  same goes with the tbody) -->
+
+        <section>
+            <h1>Tables</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Roll Number</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>x2nsnd</td>
+                        <td>x2nsnd</td>
+                        <td>x2nsnd</td>
+                    </tr>
+
+                    <tr>
+                        <td>x2nsnd</td>
+                        <td>x2nsnd</td>
+                        <td>x2nsnd</td>
+                    </tr>
+
+                    <tr>
+                        <td>x2nsnd</td>
+                        <td>x2nsnd</td>
+                        <td>x2nsnd</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+
+            <!-- The name attribute in the input tags are same because when the radio button will be check so it will be unchecked from the other button, it acts as an identifier  -->
+            <h1>Forms</h1>
+            <form action="index.php">
+                <input type="radio" name="check" id="section A">
+                <label for="section A">Option 1</label><br>
+
+                <input type="radio" name="check" id="section B">
+                <label for="section B">Option 2</label> <br>
+
+                <input type="radio" name="check" id="section C">
+                <label for="section C">Option 3</label> <br>
+
+                <input type="checkbox" name="check" id="section D">
+                <label for="section D">Option 4</label>  <br>
+                <!-- If we didn't mentioned for in the label for the checkbox then it would have only checked the box when we click on the box not on the text -->
+
+                <input type="date" name="" id=""> <br>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Why are you coding"></textarea> <br>
+
+                <select name="helllo" id="">
+                    <option value="">Select a option</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+
+            </form>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+
+
+        <section>
+            <h1>embededd links</h1>
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            <iframe src="https://wwww.bing.com" width="1000px" frameborder="0"></iframe>
+
+            <video src="" controls></video>    <!-- for local videos/ when we write controls it will give us the control play,pause buttons for the video-->
+            
+        </section>
+    </main>
+</body>
+</html>
