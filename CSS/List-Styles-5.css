@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Shadows+Into+Light&display=swap');
+
+body{
+    padding: 20%;
+    padding-left: 35%;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5rem;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style: square;
+    list-style-position: outside;
+    text-align: center;
+    color: aquamarine;
+    /* list-style-image: url(./tick.png) ; */
+}
+
+ol li:nth-child(2){
+    color: brown;
+}
+
+ul li:nth-child(odd){
+    color: purple;
+}
+
+/* Marker pseodu class will point the marks of the lists */
+::marker{
+    color: chartreuse;
+    content: "Exclusive>>";
+}
