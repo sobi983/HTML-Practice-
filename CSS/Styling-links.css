@@ -1,0 +1,27 @@
+body{
+    background-color: palegoldenrod;
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    cursor:grab ;
+}
+
+a:visited{
+    color : blue
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+a:active{
+    color: red;
+}
+
+/* a:focus{
+    color: black;
+} */

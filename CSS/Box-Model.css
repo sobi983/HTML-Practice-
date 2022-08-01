@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 3px double blue;
+    /* border-top: 6px solid red;
+    border-bottom: 6px dashed purple;
+    border-left-color: aqua; */
+    font-size: 2rem;
+    margin: 1em 0.5em 1em 0.5em;      /* short hand clock wise top, right, bottom, left */
+    outline: 4px solid green;
+    outline-offset: -10px;       /* This will create a space of px between the border and the outline border, it could be in -ve or in +ve */
+    padding: 1em;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 4px double blueviolet;
+    outline: 3px solid black;
+    outline-offset: 4px;
+    margin: 3rem auto;
+    border-radius: 50px;
+}

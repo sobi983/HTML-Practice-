@@ -1,0 +1,28 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: palegoldenrod;
+
+
+}
+.h1{
+    color: blue;
+
+}
+
+.h2{
+    color: turquoise;
+}
+
+.h3{
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.h4{
+    color: #00FF00;
+    /* #00 00 00(red, green, blue) */
+}
+
+p{
+    color: rgb(255, 0, 0);
+}

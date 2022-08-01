@@ -1,0 +1,22 @@
+body{
+    padding: 5%;
+    font-size: 2rem;
+    color: purple;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+button, input{
+    font-size: inherit;
+}
+
+p{
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: line-through;
+    text-indent: 5em;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+}

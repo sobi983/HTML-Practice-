@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    font-size: 16px;
+} */
+
+header{
+    width: 100%;
+}
+
+h1{
+    border: 3px dotted purple;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main{
+    /* font-size: 2rem; */
+}
+
+p{
+    /* font-size: 2em; */
+    width: 50ch;
+}
+
+
+/* Ch is the characters in a paragraph mainly used for the articles or newspaper */
+
+
+/* The rem is relative the parent font size, em is relative to the rem. and rem is relative to the html page and by default the html have the 16px */
